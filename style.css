@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(skyblue, red);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("https://upload.wikimedia.org/wikipedia/vi/thumb/e/ef/Logo_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i.svg/1365px-Logo_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i.svg.png");
+    background-position: center;
+    background-size: cover;
+}
+p{
+    background-color: red; color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    border-style: solid;
+    border-width: 5px;
+    border-color: crimson;
+    border-radius: 10px;
+    padding: 7px;
+    border-top-color: blanchedalmond ;
+}
+.le{
+    background-color: yellowgreen; 
+    color: black;
+    font-weight: 800;
+}
+#para3{
+    background-color: blue;
+    font-style: italic;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 2px blue;
+    transform: translate(30px,40px);
+    transform: scaleY(3);
+}
+button:hover{
+    background-color: red
+}
+button:active{
+    background-color: blue
+}
+li:nth-child(n+1){
+    color: aquamarine;
+}
+@media all and (max-width: 768px){
+    h1{
+        color: red
+    }
+}
+@media all and (max-width: 360px){
+    h1{
+        color: green
+    }
+}
